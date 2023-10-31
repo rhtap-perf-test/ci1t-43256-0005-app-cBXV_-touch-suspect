@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-xmcu
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0005-tenant/ci1t-43256-0005-app/devfile-sample-xmcu@sha256:de700a1c63e0c582b2b88629d4425d5c6d69ee13894ba4c7aed5bdb7cd9928fe
         name: my-nodejs
         ports:
         - containerPort: 3001
