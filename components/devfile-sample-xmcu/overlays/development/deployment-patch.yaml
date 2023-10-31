@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-xmcu
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0005-tenant/ci1t-43256-0005-app/devfile-sample-xmcu@sha256:de700a1c63e0c582b2b88629d4425d5c6d69ee13894ba4c7aed5bdb7cd9928fe
+        name: my-nodejs
+        resources: {}
+status: {}
